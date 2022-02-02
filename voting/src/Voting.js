@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import './App.css';
+import Languages from './Languages';
 
 class Voting extends Component{
 	constructor(props){
@@ -9,7 +10,11 @@ class Voting extends Component{
 
 	render(){
 		return(
-			<div> Welcome to the Voting app </div>
+			<div> 
+				<h1>Welcome to the Voting app</h1>
+				<Languages />
+			</div>
+			
 		);
 	}
 }
